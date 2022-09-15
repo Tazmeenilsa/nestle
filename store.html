@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- fontawesome link -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+
+  <!-- my css link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Nestle</title>
+</head>
+
+<body>
+  <!-- header starts -->
+  <header>
+    <!-- navbar starts -->
+    <div>
+      <div class="navbar navbar-expand-lg px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav"
+            aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynav">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="store.html">Store</a>
+              <div class="contact d-lg-flex">
+                <a class="nav-link" href="contact.html"><i class="fa-solid fa-phone"></i></a>
+                <a class="nav-link" href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <!-- navbar ends -->
+  </header>
+  <!-- header ends -->
+
+  <!-- search bar start -->
+  <div class="row search bar">
+
+    <div class="col-10 mx-auto col-md-6">
+      <form>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend ">
+            <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder='item....' id="search-item" onkeyup="search()">
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <!-- search bar start -->
+
+  <!-- product items start -->
+  <div class="container-fluid" id="product-list">
+    <div class="container-fluid row store-items" id="cerelac">
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-2tins.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">d item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-apple-cherry.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">o item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/flac-maxi-pack.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">flacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/Cerelac-mix-Food(tin).jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">zlacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-orange-banana.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">rlacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-puffs.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">cerelacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-rice(tin).jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">cerelacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-wheat(soft).webp" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">cerelacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-wheat-400gm.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">cerelacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac-wheat-orange.jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">cerelacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+      <!-- single item -->
+      <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="cerelacs">
+        <div class="card ">
+          <div class="img-container">
+            <img src="images/cerelac_honey_wheat(tin).jpg" class="card-img-top store-img" alt="">
+            <span class="store-item-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </div>
+          <div class="card-body">
+            <div class="card-text d-flex justify-content-between text-capitalize">
+              <h5 id="store-item-name">cerelacs item</h5>
+              <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of card-->
+      </div>
+      <!--end of single store item-->
+
+    </div>
+  </div>
+  <!-- product items ends -->
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

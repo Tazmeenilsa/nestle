@@ -1,0 +1,79 @@
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/Kalam/Kalam-Bold.ttf);
+}
+body{
+    font-family: myfont;
+}
+:root {
+    --mainPink: #fa99b3;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBrown: brown;
+    --yellowTrans: rgba(249, 228, 148, 0.5);
+    --mainGrey: rgb(238, 238, 238);
+  }
+
+/* navbar */
+
+.navbar{
+    font-size: 1.5rem;
+}
+.navbar-nav a{
+    color: var(--mainPink);
+}
+.navbar-nav a:hover{
+    color: red;
+}
+.navbar-toggler{
+    color: var(--mainPink);
+}
+/* banner */
+
+.banner{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+.banner-content{
+    color: white;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+}
+.banner-content h1{
+    color: var(--mainBrown);
+}
+.banner-text{
+    color: var(--mainPink);
+}
+.btn{
+    color: var(--mainBrown);
+    border: 0.2rem solid var(--mainBrown);
+
+}
+.btn:hover{
+    color: var(--mainPink);
+    background-color: var(--mainBrown);
+}
+.small h1 {
+    color: blue;
+}
+
+
+/* store section */
+.store h1{
+    color: var(--mainBrown);
+}
+#store_title{
+    color: var(--mainPink);
+}
+.search-box{
+    color: var(--mainBrown);
+    background-color: var(--mainPink);
+    height: 35px;
+}
+.form-control{
+    height: 35px;
+}
