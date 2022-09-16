@@ -15,12 +15,29 @@ body{
   }
 
 /* navbar */
+#mynav{
+    justify-content:flex-end;
 
+   
+    
+}
 .navbar{
     font-size: 1.5rem;
+  
+    
+
 }
+.linkhead a{
+    padding-left: 20%;
+    margin-right: 30px;
+
+
+}
+
 .navbar-nav a{
     color: var(--mainPink);
+ 
+  
 }
 .navbar-nav a:hover{
     color: red;
@@ -29,7 +46,13 @@ body{
     color: var(--mainPink);
 }
 /* banner */
-
+.img{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url('../images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+}
 .banner{
     margin: 0px;
     padding: 0px;
@@ -39,8 +62,9 @@ body{
 .banner-content{
     color: white;
     position: absolute;
-    top: 3%;
+    top: 10%;
     width: 100%;
+
 }
 .banner-content h1{
     color: var(--mainBrown);
@@ -49,6 +73,7 @@ body{
     color: var(--mainPink);
 }
 .btn{
+margin-top: 2%;
     color: var(--mainBrown);
     border: 0.2rem solid var(--mainBrown);
 
@@ -72,8 +97,8 @@ body{
 .search-box{
     color: var(--mainBrown);
     background-color: var(--mainPink);
-    height: 35px;
+    height: 60px;
 }
 .form-control{
-    height: 35px;
+    height: 60px;
 }
