@@ -97,8 +97,8 @@ margin-top: 2%;
 .search-box{
     color: var(--mainBrown);
     background-color: var(--mainPink);
-    height: 60px;
+    height: 35px;
 }
 .form-control{
-    height: 60px;
+    height: 35px;
 }
