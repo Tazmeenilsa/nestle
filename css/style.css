@@ -102,3 +102,150 @@ margin-top: 2%;
 .form-control{
     height: 35px;
 }
+/* Banners */
+/* .img1{
+    background-image: url('../storeimages/banners/cerelac.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.img2{
+    background-image: url('../storeimages/banners/water.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.img3{
+    background-image: url('../storeimages/banners/lactogrow.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.img4{
+    background-image: url('../storeimages/banners/EveryDay.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+} */
+/* Feedback */
+.section {
+    padding: 2rem 9%;
+}
+.review .box-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    /* padding: 2rem 4rem; */
+}
+.review h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 4rem 0.2rem;
+    color: #454646;
+}
+.review .box-container1 .box1 {
+    flex: 1 1 30rem;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    color: var(--light-color);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 30px 0px rgb(199 187 162 / 40%);
+}
+.review .box-container1 .box1 i img {
+    margin-top: 3rem;
+    width: 10rem;
+    height: 10rem;
+}
+.review .box-container1 .box1 h3 {
+    padding-top: 1.5rem;
+    font-size: 2.2rem;
+    color: #FBA829;
+}
+
+.review .box-container1 .box1 h4 {
+    padding-top: 0.3rem;
+    font-size: 1.5rem;
+    color: #454646;
+    opacity: 80%;
+    font-weight: 500;
+}
+.review .box-container1 .box1 i {
+    font-size: 3rem;
+    padding-top: 2.4rem;
+    color: #454646;
+}
+.review .box-container1 .box1 .stars i {
+    font-size: 1.7rem;
+    color: #FBA829;
+    padding: 1.5rem 0;
+}
+.review .box-container1 .box1 p {
+    text-align: center;
+    /* margin-top: 8rem; */
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+
+
+
+
+
+/* Contact Form */
+#contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+#contact .row form{
+    flex: 1 1 25rem;
+   
+    border-radius: 0.5rem;
+}
+form .box{
+    width: 70%;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    font-size: 1.7rem;
+    padding: 10px 0px 10px 20px;
+    margin: 0.5rem 0;
+    background: #FAF0DC;
+    box-shadow: 0px 0px 50px 0px rgb(199 187 162 / 40%);
+    border-radius: 0.5rem;
+    border: 1px solid #454646;
+}
+#contact ,.row form textarea{
+   color: rgb(0, 0, 0);
+    text-transform: none;
+    font-size: 1.7rem;
+    padding: 1.3rem 1rem;
+    margin: 0.5rem 0;
+    background: #FAF0DC;
+    box-shadow: 0px 0px 50px 0px rgb(199 187 162 / 40%);
+    border-radius: 0.5rem;
+    border: 1px solid #454646;
+}
+#contact .buton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+#contact .buton a {
+    background-color: #FBA829;
+    text-align: center;
+    border: none;
+    color: #454646;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin-top: 0.9rem;
+    display: block;
+}
