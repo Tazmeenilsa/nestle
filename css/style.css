@@ -11,7 +11,8 @@ body{
     --mainWhite: #fff;
     --mainBrown: brown;
     --yellowTrans: rgba(249, 228, 148, 0.5);
-    --mainGrey: rgb(238, 238, 238);
+    --mainGrey: rgb(92, 85, 85);
+    --orange: rgb(251, 168, 41);
   }
 
 /* navbar */
@@ -67,15 +68,15 @@ body{
 
 }
 .banner-content h1{
-    color: var(--mainBrown);
+    color: var(--orange);
 }
 .banner-text{
     color: var(--mainPink);
 }
 .btn{
 margin-top: 2%;
-    color: var(--mainBrown);
-    border: 0.2rem solid var(--mainBrown);
+    color: var(--orange);
+    border: 0.2rem solid var(--orange);
 
 }
 .btn:hover{
@@ -88,10 +89,10 @@ margin-top: 2%;
 
 
 /* store section */
-.store h1{
+h1{
     color: var(--mainBrown);
 }
-#store_title{
+.title{
     color: var(--mainPink);
 }
 .search-box{
@@ -102,35 +103,7 @@ margin-top: 2%;
 .form-control{
     height: 35px;
 }
-/* Banners */
-/* .img1{
-    background-image: url('../storeimages/banners/cerelac.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-}
-.img2{
-    background-image: url('../storeimages/banners/water.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-}
-.img3{
-    background-image: url('../storeimages/banners/lactogrow.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-}
-.img4{
-    background-image: url('../storeimages/banners/EveryDay.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-} */
+
 /* Feedback */
 .section {
     padding: 2rem 9%;
@@ -152,7 +125,7 @@ margin-top: 2%;
     text-align: center;
     justify-content: space-evenly;
     padding: 2rem;
-    color: var(--light-color);
+    color: var(--mainPink);
     border-radius: 0.5rem;
     box-shadow: 0px 0px 30px 0px rgb(199 187 162 / 40%);
 }
@@ -164,20 +137,20 @@ margin-top: 2%;
 .review .box-container1 .box1 h3 {
     padding-top: 1.5rem;
     font-size: 2.2rem;
-    color: #FBA829;
+    color: var(--mainBrown);
 }
 
 .review .box-container1 .box1 h4 {
     padding-top: 0.3rem;
     font-size: 1.5rem;
-    color: #454646;
+    color: var(--mainGrey);
     opacity: 80%;
     font-weight: 500;
 }
 .review .box-container1 .box1 i {
     font-size: 3rem;
     padding-top: 2.4rem;
-    color: #454646;
+    color: var(--mainGrey);
 }
 .review .box-container1 .box1 .stars i {
     font-size: 1.7rem;
@@ -208,7 +181,7 @@ margin-top: 2%;
 }
 form .box{
     width: 70%;
-    color: rgb(0, 0, 0);
+    color: var(--mainGrey);
     text-transform: none;
     font-size: 1.7rem;
     padding: 10px 0px 10px 20px;
@@ -219,7 +192,7 @@ form .box{
     border: 1px solid #454646;
 }
 #contact ,.row form textarea{
-   color: rgb(0, 0, 0);
+   color: var(--mainGrey);
     text-transform: none;
     font-size: 1.7rem;
     padding: 1.3rem 1rem;
@@ -237,10 +210,10 @@ form .box{
     margin-bottom: 4rem;
 }
 #contact .buton a {
-    background-color: #FBA829;
+    background-color: var(--mainWhite);
     text-align: center;
-    border: none;
-    color: #454646;
+    border: solid 1px var(--mainBrown);
+    color: var(--mainBrown);
     padding: 15px 18px;
     text-decoration: none;
     font-size: 20px;
